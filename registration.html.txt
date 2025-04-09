@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Internship Registration</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="program">Select Program:</label>
+      <select id="program" name="program" required>
+        <option value="web-development">Web Development</option>
+        <option value="data-science">Data Science</option>
+        <option value="machine-learning">Machine Learning</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>

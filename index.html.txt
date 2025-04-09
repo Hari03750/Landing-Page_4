@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prodigy InfoTech | Internship Program</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <h1 class="logo">Prodigy InfoTech</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Launch Your Career with Us</h2>
+      <p>Join Prodigy InfoTech's Internship Program and gain real-world skills in tech and innovation.</p>
+      <a href="#register" class="btn">Register Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h3>About Prodigy InfoTech</h3>
+      <p>Prodigy InfoTech is a leading tech company offering innovative IT solutions, internships, and training. We aim to empower students with hands-on experience through live projects in cutting-edge domains such as web development, data science, and more.</p>
+    </div>
+  </section>
+
+  <section id="programs" class="section light-bg">
+    <div class="container">
+      <h3>Internship Programs</h3>
+      <ul class="program-list">
+        <li><strong>Web Development</strong> - Build responsive and interactive websites using HTML, CSS, and JavaScript.</li>
+        <li><strong>Data Science</strong> - Learn Python, data analysis, and machine learning basics.</li>
+        <li><strong>Java Programming</strong> - Master object-oriented programming and backend development.</li>
+        <li><strong>Cloud Computing</strong> - Understand cloud platforms, virtualization, and DevOps basics.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="register" class="section">
+    <div class="container">
+      <h3>Register for Internship</h3>
+      <p>Click below to open the registration form and begin your journey with us.</p>
+      <a href="registration.html" class="btn">Go to Registration</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section light-bg">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <p>Email: support@prodigyinfotech.dev</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/company/prodigy-infotech/" target="_blank">Prodigy InfoTech</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Prodigy InfoTech. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
